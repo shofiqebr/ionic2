@@ -13,7 +13,7 @@ const Navbar = () => {
   const [open3, setOpen3] = useState(false)
 
     return (
-        <div className='fixed    max-w-[1920px] mx-auto w-full bg-white '>
+        <div className='fixed    max-w-[1920px] mx-auto w-full bg-white z-50 '>
 
          {/* gray section */}
 
@@ -32,12 +32,12 @@ const Navbar = () => {
 
 
 
-            <section className=" bg-white lg:pb-2 pb-5 ">
+            <section className=" bg-white lg:pb-2 pb-5 mx-[400px] ">
             <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto">
+    <div className="navbar px-0 w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -58,7 +58,7 @@ const Navbar = () => {
 
 
       <Link to='/'>
-      <div className="mx-2 lg:ml-0 md:ml-32 ml-10 flex-1 px-2">
+      <div className=" flex-1">
         <img className='w-44' src={logo} alt="" />
       </div>
       </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
           {/* Navbar menu content here */}
           <a href="https://basis.org.bd/company-profile/23-01-033">
         
-          <img className='w-32 2xl:ml-20 mr-1' src={basis} alt="" />
+          <img className='w-32 ' src={basis} alt="" />
           </a>
         
       </div>

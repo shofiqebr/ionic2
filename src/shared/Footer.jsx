@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <div>
+        <div className="text-end mx-[400px]">
             gfjhtj
         </div>
     );
