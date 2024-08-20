@@ -2,12 +2,13 @@ import fixedImg from '../assets/corporation/care-call-4.png';
 
 const Fixed = () => {
     return (
-        <div className="fixed top-0 right-0 px-[400px] flex justify-end gap-3   pt-[102px] z-50 ">
-        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center hidden md:block z-50'>
+       
+         <div className="lg:fixed top-0 right-0  mx-[160px] flex lg:justify-end justify-center gap-3 z-20   lg:mt-[102px] -mt-[18px] ">
+        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center hidden md:block'>
           কাষ্টমার কেয়ার : 01511142320
 
         </h1>
-        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center relative z-50'>
+        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center relative '>
           বিক্রয় প্রতিনিধি : 01958442200
 
 
@@ -43,6 +44,7 @@ const Fixed = () => {
 
         </h1>
       </div>
+       
     );
 };
 

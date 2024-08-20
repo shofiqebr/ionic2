@@ -6,7 +6,7 @@ const ProductCard = ({item}) => {
              <section className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  items-center ">
             {
                 item?.map((product, index)=>{
-                return    <div key={index} className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 text-center bg-white lg:w-44 2xl:w-[183.5px] cards z-10">
+                return    <div key={index} className="flex flex-col justify-center items-center border-r border-b   py-5 px-3 lg:hover:scale-105 text-center bg-white cards ">
 
                         <img className="w-32 pb-5" src={product.imgSrc} />
                         <h4 className="font-bold cardHeading text-">{product.title}</h4>

@@ -12,11 +12,12 @@ const Banner = () => {
 
                 {/* ------------banner left--------------- */}
 
-                <div className=" bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  z-20  ">
+                <div className=" bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  
+                  ">
 
 
 
-                    <div className=" w-1/2 pl-10 pt-10 z-10 bannerTExt">
+                    <div className=" w-1/2 pl-10 pt-10  bannerTExt">
 
 
                         <div className="bannerHeading  ">
@@ -70,7 +71,7 @@ const Banner = () => {
 
                     </div>
                     <div className="relative  md:hidden lg:block  ">
-                        <img className="  lg:absolute lg:bottom-0 lg:right-0" src={bannerImg} alt="" />
+                    <img className="  w-[370px] lg:absolute lg:bottom-0 lg:right-0" src={bannerImg} alt="" />
                     </div>
                 </div>
 
@@ -86,7 +87,7 @@ const Banner = () => {
 
 
 
-                <div className="w-[950px] bg-[#001B41] text-white p-5 lg:pl-10 px-5 md:rounded-tr-xl z-20 bannerRight">
+                <div className="w-[950px] bg-[#001B41] text-white p-10 md:rounded-tr-xl  bannerRight">
                     <p className=" font-semibold text-[#FFAA00] pb-3 text-lg">আমাদের সেবা সমূহ</p>
 
                     <p className="text-[15px]  text-justify ">বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল, ব্যবসা প্রতিষ্ঠান পরিচালনার পূর্নাঙ্গ সমাধান নিয়ে, "আইওনিক কর্পোরেশন" প্রোগ্রামিং ভাষা পাইথন দিয়ে তৈরি, টোটাল সলুয়েশন ইআরপি সফ্টওয়ার উপস্খাপন করলো আপনার জন্য। যে কোন ব্যবসা ও প্রতিষ্ঠান পরিচালনার জন্য প্রতিষ্ঠান ব্যবস্থাপনা ও একাউন্টিং সিস্টেম সহ ১০০+ এর অধিক সমাধানের মডিউল নিয়ে আসলো "আইওনিক কর্পোরেশন"।</p>

@@ -4,6 +4,7 @@ import { FaAngleDown, FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
+import Fixed from './Fixed';
 
 
 const Navbar = () => {
@@ -11,9 +12,10 @@ const Navbar = () => {
   const [open1, setOpen1] = useState(false)
   const [open2, setOpen2] = useState(false)
   const [open3, setOpen3] = useState(false)
+  const [open4, setOpen4] = useState(false)
 
     return (
-        <div className='fixed    max-w-[1920px] mx-auto w-full bg-white z-50 '>
+        <div className='fixed    max-w-[1920px] mx-auto w-full bg-white z-20 '>
 
          {/* gray section */}
 
@@ -32,12 +34,13 @@ const Navbar = () => {
 
 
 
-            <section className=" bg-white lg:pb-2 pb-5 mx-[400px] ">
+            <section className=" bg-white lg:pb-2 pb-5 lg:mx-[160px] mx-2">
             <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar px-0 w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto">
+    <div className="navbar px-0 w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto 
+  ">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -64,15 +67,15 @@ const Navbar = () => {
       </Link>
 
         <div className='lg:block hidden'>
-            <ul className='flex justify-center items-center gap-2'>
+            <ul className='flex justify-center items-center gap-2 '>
               <Link to='/'>
-                <li className='xl:text-lg text-[11px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
+                <li className='xl:text-lg text-[12px] font-bold'>হোম <span className='opacity-30'>|</span> </li>
               </Link>
                
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>সেবা ও পণ্য সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
+                <li className='flex justify-center items-center xl:text-lg text-[12px] font-bold group relative z-50'>সেবা ও পণ্য সমূহ<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white xl:w-56 w-[155px] p-5 font-normal xl:text-lg text-[12px] z-50'>
                           <Link to='/homeErp'>
-                            <li className='py-1'>আওনিক ইআরপি</li>
+                            <li className='py-1 '>আওনিক ইআরপি</li>
                           </Link>
                           
                           <a href="https://bdia.btcl.com.bd/">
@@ -81,8 +84,8 @@ const Navbar = () => {
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-5 font-normal text-base z-50'>
+                <li className='flex justify-center items-center xl:text-lg text-[12px] font-bold group relative'>ডোমেইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white xl:w-56 w-[155px] p-5 font-normal xl:text-lg text-[12px] z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/">
                             <li className='py-1'>আন্তর্জাতিক ডোমেইন</li>
                           </a>
@@ -92,8 +95,11 @@ const Navbar = () => {
                         </ul>
                 
                 </li>
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
-                        <ul className='group-hover:block hidden absolute xl:top-6 lg:top-4 left-0 bg-white w-56 p-3 text-base  font-normal z-50'>
+                <li className='flex justify-center items-center xl:text-lg text-[12px] font-bold group relative'>হোস্টিং<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> |</span>
+                        <ul className='group-hover:block 
+                        
+                        
+                        hidden absolute xl:top-6 lg:top-4 left-0 bg-white xl:w-56 w-[155px] p-3 xl:text-lg text-[12px]  font-normal z-50'>
                            <Link to='/webHosting'>
                            <li className='py-2'> Plesk প্রিমিয়াম ওয়েব হোস্টিং</li>
                            </Link> 
@@ -107,11 +113,11 @@ const Navbar = () => {
                     
                 </li>
                 <Link to='/contact'>
-                <li className='xl:text-lg text-[11px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
+                <li className='xl:text-lg text-[12px] font-bold'>যোগাযোগ <span className='opacity-30'>|</span></li>
                 </Link>
             
-                <li className='flex justify-center items-center xl:text-lg text-[11px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
-                        <ul className='group-hover:block hidden absolute text-base font-normal xl:top-6 lg:top-4 left-0 bg-white w-44 p-5 z-50'>
+                <li className='flex justify-center items-center xl:text-lg text-[12px] font-bold group relative'>লগইন<span className='flex justify-center items-center gap-1 opacity-30'><FaAngleDown /> </span>
+                        <ul className='group-hover:block hidden absolute xl:text-lg text-[12px] font-normal xl:top-6 lg:top-4 left-0 bg-white xl:w-44 w-[155px] p-5 z-50'>
                           <a href="https://ionic.supersite2.myorderbox.com/login.php">
                             <li className='py-2'>ডোমেইন লগইন</li>
                           </a>
@@ -179,10 +185,10 @@ const Navbar = () => {
       </Link>
       <hr />
     
-      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা ও পণ্য সমূহ </p><p onClick={()=>setOpen1(!open1)}>{open1?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
+      <li><a className='flex justify-between h-14 font-semibold pr-0 hover:bg-white'> <p className=' w-full'>সেবা ও পণ্য সমূহ </p><p onClick={()=>setOpen4(!open4)}>{open4?<FaAngleDown  className='bg-[#FF0000] text-white h-full text-[57px] p-4 font-light border ' />:<FaAngleRight className='text-[56px]  font-light border p-4 '/>}</p>  </a>
       <hr className='p-0' />
 
-      {open1 && <>
+      {open4 && <>
         <Link to='/homeErp'>
         <li className='h-14 flex justify-center font-medium w-full'>আওনিক ইআরপি</li>
         </Link>
@@ -288,7 +294,7 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-             
+             <Fixed/>
         </div>
     );
 };
