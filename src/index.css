@@ -15,3 +15,28 @@
 .shadowCustom{
     box-shadow: 0px 3px 8px 0px #0B2A63;
   }
+
+  @media (min-width: 1360px) {
+    .heading1{
+      font-size: 44px !important;
+    }
+    .heading2{
+      font-size: 32px !important;
+    }
+  }
+  @media (min-width: 1400px) {
+    .heading1{
+      font-size: 46px !important;
+    }
+    .heading2{
+      font-size: 34px !important;
+    }
+  }
+  @media (min-width: 1440px) {
+    .heading1{
+      font-size: 48px !important;
+    }
+    .heading2{
+      font-size: 35px !important;
+    }
+  }

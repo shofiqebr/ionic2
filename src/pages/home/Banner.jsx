@@ -7,29 +7,29 @@ import { FaCheck } from "react-icons/fa";
 const Banner = () => {
     return (
         <div className="pt-36">
-            <section className="flex  md:flex-row flex-col   childBanner" >
+            <section className="grid xl:grid-cols-6  md:grid-cols-5  grid-cols-1  childBanner" >
 
 
                 {/* ------------banner left--------------- */}
 
-                <div className=" bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  
+                <div className="xl:col-span-4  md:col-span-3 bg-[#0B2A63] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  
                   ">
 
 
 
-                    <div className=" w-1/2 pl-10 pt-10  bannerTExt">
+                    <div className=" xl:w-[70%] 2xl:w-[60%] lg:pl-10 lg:pt-10 p-7   bannerTExt">
 
 
                         <div className="bannerHeading  ">
 
                             <p className="pb-3 font-bold text-[#FFAA00] text-lg  ">আইওনিক কর্পোরেশন</p>
-                            <h1 className="lg:text-[40px] xl:text-[32px] 2xl:text-[36px]  text-3xl md:text-[34px] font-semibold pb-3 heading1 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
-                            <h1 className="lg:text-[29px] xl:text-[23px] 2xl:text-[26px] text-[22px] md:text-[25px] font-semibold lg:pb-8 heading2">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
+                            <h1 className="lg:text-[37px] xl:text-[40px] 2xl:text-[50px]  text-3xl md:text-[43px] font-semibold pb-3 heading1 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
+                            <h1 className="lg:text-[27px] xl:text-[29px] 2xl:text-[26px] text-[22px] md:text-[31px] font-semibold lg:pb-8 pb-5 heading2">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
 
                         </div>
 
 
-                        <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px]  text-justify  ">
+                        <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px]   md:mt-12 lg:mt-0 text-justify  ">
 
                             বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল
                             ক্যাটাগরির টোটাল সলুয়েশন সফটওয়্যার
@@ -46,7 +46,7 @@ const Banner = () => {
 
 
 
-                        <button className="pl-5 xl:pt-[125px] 2xl:pt-[100px] lg:pt-[260px]  md:pt-[120px] leftOnurodh" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5">
+                        <button className="pl-5 xl:pt-[170px] 2xl:pt-[100px] lg:hidden xl:block  md:pt-[120px] leftOnurodh" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5">
                             অনুরোধ করুন
                         </p>
                         </button>
@@ -70,8 +70,8 @@ const Banner = () => {
 
 
                     </div>
-                    <div className="relative  md:hidden lg:block  ">
-                    <img className="  w-[370px] lg:absolute lg:bottom-0 lg:right-0" src={bannerImg} alt="" />
+                    <div className="relative  md:hidden lg:block flex justify-end  ">
+                    <img className="2xl:w-[340px]  xl:w-[300px] lg:w-[300px] lg:absolute bottom-0 right-0" src={bannerImg} alt="" />
                     </div>
                 </div>
 
@@ -87,52 +87,52 @@ const Banner = () => {
 
 
 
-                <div className="w-[950px] bg-[#001B41] text-white p-10 md:rounded-tr-xl  bannerRight">
+                <div className=" xl:col-span-2 md:col-span-2 bg-[#001B41] text-white x p-7 md:rounded-tr-xl text-center md:text-start bannerRight">
                     <p className=" font-semibold text-[#FFAA00] pb-3 text-lg">আমাদের সেবা সমূহ</p>
 
                     <p className="text-[15px]  text-justify ">বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল, ব্যবসা প্রতিষ্ঠান পরিচালনার পূর্নাঙ্গ সমাধান নিয়ে, "আইওনিক কর্পোরেশন" প্রোগ্রামিং ভাষা পাইথন দিয়ে তৈরি, টোটাল সলুয়েশন ইআরপি সফ্টওয়ার উপস্খাপন করলো আপনার জন্য। যে কোন ব্যবসা ও প্রতিষ্ঠান পরিচালনার জন্য প্রতিষ্ঠান ব্যবস্থাপনা ও একাউন্টিং সিস্টেম সহ ১০০+ এর অধিক সমাধানের মডিউল নিয়ে আসলো "আইওনিক কর্পোরেশন"।</p>
 
-                    <h1 className="xl:text-[19px] lg:text-[18px] text-xl font-semibold pb-5 pt-5 text-[#FFAA00] bannerRightH2">আমাদের বিজনেস সলিউশন সেবা সমূহ</h1>
+                    <h1 className="xl:text-[18px] lg:text-[15px] md:text-[17px] text-xl font-semibold pb-5 pt-5 text-[#FFAA00] bannerRightH2">আমাদের বিজনেস সলিউশন সেবা সমূহ</h1>
 
 
-                    <div className="grid grid-cols-2 gap-1 ">
+                    <div className="grid grid-cols-2 gap-1  pl-5 md:pl-0">
 
-                        <section>
+                        <section className="text-center">
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px] ">ইআরপি সফটওয়্যার</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px] ">ইআরপি সফটওয়্যার</p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">ওয়েব ডেভেলপ</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">ওয়েব ডেভেলপ</p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">সফটওয়্যার ডেভেলপ</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">সফটওয়্যার ডেভেলপ</p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">মোবাইল অ্যাপস</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">মোবাইল অ্যাপস</p>
                             </div>
                         </section>
 
 
-                        <section>
+                        <section className="text-center">
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">ক্লাউড স্টোরেজ</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">ক্লাউড স্টোরেজ</p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">ডোমেন ও হোস্টিং</p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">ডোমেন ও হোস্টিং</p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">এসএমএস সার্ভিস </p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">এসএমএস সার্ভিস </p>
                             </div>
                             <div className="flex items-center gap-4 pb-5">
                                 <FaCheck className=" rounded-full bg-[#2F4A7A] text-[2f4a7a] p-1 text-[18px] " />
-                                <p className="text-[12px] 2xl:text-[13.8px]">ইকমার্স সলিউশন </p>
+                                <p className="text-[12px] md:text-[11px] lg:text-[10px] xl:text-[12px] 2xl:text-[13.8px]">ইকমার্স সলিউশন </p>
                             </div>
                         </section>
                     </div>
@@ -152,7 +152,7 @@ const Banner = () => {
 
 
                     {/* Open the modal using document.getElementById('ID').showModal() method */}
-                    <div className="text-center 2xl:mt-5">
+                    <div className="text-center lg:mt-20 xl:mt-0 ">
                         <button className="" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px]  font-extrabold my-3 px-5 ">
                             অনুরোধ করুন
                         </p>
