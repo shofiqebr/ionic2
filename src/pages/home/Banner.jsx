@@ -7,6 +7,7 @@ import { FaCheck } from "react-icons/fa";
 const Banner = () => {
     return (
         <div className="pt-36">
+  
             <section className="grid xl:grid-cols-6  md:grid-cols-5  grid-cols-1  childBanner" >
 
 
@@ -23,8 +24,8 @@ const Banner = () => {
                         <div className="bannerHeading  ">
 
                             <p className="pb-3 font-bold text-[#FFAA00] text-lg  ">আইওনিক কর্পোরেশন</p>
-                            <h1 className="lg:text-[37px] xl:text-[40px] 2xl:text-[50px]  text-3xl md:text-[43px] font-semibold pb-3 heading1 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
-                            <h1 className="lg:text-[27px] xl:text-[29px] 2xl:text-[26px] text-[22px] md:text-[31px] font-semibold lg:pb-8 pb-5 heading2">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
+                            <h1 className="lg:text-[37px] xl:text-[40px] 2xl:!text-[40px]  text-3xl md:text-[43px] font-semibold pb-3 heading1 ">বাংলাদেশের একটি বিশ্বস্ত   </h1>
+                            <h1 className="lg:text-[27px] xl:text-[29px] 2xl:!text-[29px]  text-[22px] md:text-[31px] font-semibold lg:pb-8 pb-5 heading2">ডিজিটাল আইটি সলিউশন প্রতিষ্ঠান</h1>
 
                         </div>
 

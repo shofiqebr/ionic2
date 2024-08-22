@@ -16,6 +16,14 @@
     box-shadow: 0px 3px 8px 0px #0B2A63;
   }
 
+  @media (min-width: 425px) {
+  .pharmaCard{
+    width: 211px;
+    height: 185px;
+  }   
+ 
+  }
+
   @media (min-width: 1360px) {
     .heading1{
       font-size: 44px !important;
@@ -38,5 +46,27 @@
     }
     .heading2{
       font-size: 35px !important;
+    }
+  }
+ 
+  @media (min-width: 1600px) {
+    
+    .mainHome{
+      margin-left: 245px !important;
+      margin-right: 245px !important;
+    }
+  }
+  @media (min-width: 1680px) {
+    
+    .mainHome{
+      margin-left: 285px !important;
+      margin-right: 285px !important;
+    }
+  }
+ @media (min-width: 1920px) {
+   
+    .mainHome{
+      margin-left: 405px !important;
+      margin-right: 405px !important;
     }
   }

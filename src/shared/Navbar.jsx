@@ -34,7 +34,7 @@ const Navbar = () => {
 
 
 
-            <section className=" bg-white lg:pb-2 pb-5 lg:mx-[160px] mx-2">
+            <section className=" bg-white lg:pb-2 pb-5 lg:mx-[160px] 2xl:mx-[215px] mx-2 mainHome">
             <div className="drawer navWidth mx-auto ">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">

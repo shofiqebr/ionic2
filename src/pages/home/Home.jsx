@@ -9,10 +9,10 @@ import Technologies from "./Technologies";
 
 const Home = () => {
   return (
-    <div className=' 2xl:mx-[210px] lg:mx-[160px]'>
+    <div className=' 2xl:mx-[215px] lg:mx-[160px] mainHome'>
   
       <Banner />
-      {/* <BannerCard /> */}
+      <BannerCard />
       {/* <BrandProducts /> */}
       {/* <ProductDetails /> */}
       {/* <Technologies /> */}
