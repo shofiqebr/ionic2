@@ -24,8 +24,8 @@ const BannerCard = () => {
                                         ${isLastItem ? 'block md:hidden lg:flex' : 'lg:hover:scale-105'}`}
             >
               <img className="w-32 lg:w-24 xl:w-32 pb-5" src={product.imgSrc} />
-              <h4 className="font-bold cardHeading lg:text-[11px] xl:text-[15px]">{product.title}</h4>
-              <p className="text-[#718095] cardType text-center lg:text-[8px] xl:text-[12px]">{product.subtitle}</p>
+              <h4 className="font-bold cardHeading text-[15px] lg:text-[11px] xl:text-[15px]">{product.title}</h4>
+              <p className="text-[#718095] cardType text-center text-[12px] lg:text-[8px] xl:text-[12px]">{product.subtitle}</p>
               <a
                 className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px] pt-2"
                 href="https://ionicerp.xyz/"
@@ -39,7 +39,7 @@ const BannerCard = () => {
       <ProductCard item={product3} />
 
       <ProductCard item={product4} />
-      <div className="text-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white w-[187px] md:w-[255px] h-[186px] absolute bottom-[186px] md:bottom-0 right-0 pharmaCard lg:hidden">
+      <div className="text-center border-r border-b   py-5 px-3 lg:hover:scale-105 bg-white w-[187px] md:w-[255px] h-[184px] md:h-[182px] absolute bottom-[181.5px] md:bottom-0 right-0 pharmaCard lg:hidden">
         <div className="flex justify-center items-center">
 
         <img className="w-32 pb-5" src={pharma} />

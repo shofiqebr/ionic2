@@ -13,9 +13,9 @@ const Home = () => {
   
       <Banner />
       <BannerCard />
-      {/* <BrandProducts /> */}
-      {/* <ProductDetails /> */}
-      {/* <Technologies /> */}
+      <BrandProducts />
+      <ProductDetails />
+      <Technologies />
     </div>
   );
 };
