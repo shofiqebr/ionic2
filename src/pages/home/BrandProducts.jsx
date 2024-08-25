@@ -25,7 +25,7 @@ const BrandProducts = () => {
     return (
         <div className='pt-10'>
             <section>
-            <img className="rounded-xl hidden md:block digitalImg lg:h-auto" src={global} alt="" />
+            <img className="rounded-xl hidden md:block digitalImg w-full lg:h-auto" src={global} alt="" />
             </section>
 
 

@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { products } from "./productsData";
+
 
 
 const ProductDetails = () => {
@@ -16,7 +18,16 @@ const ProductDetails = () => {
                <h2 className='font-bold '>{product.title}</h2>
                <p className='text-center  text-[#5e5d5d] flex-grow'>{product.description}</p>
               
-           <a href="https://ionicerp.xyz/"className='bg-[#0C2A63] text-white p-3 rounded text-sm font-bold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9'>বিস্তারিত</a>
+           {/* <a href="https://ionicerp.xyz/"className='bg-[#0C2A63] text-white p-3 rounded text-sm font-bold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9'>বিস্তারিত</a> */}
+           {
+            product.linkType === 'external' ? (
+              <a className='bg-[#0C2A63] text-white p-3 rounded text-sm font-bold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9' href={product.link}>বিস্তারিত</a> 
+          ) : (
+              <Link to={product.link}>
+              <div className='bg-[#0C2A63] text-white p-3 rounded text-sm font-bold  transform lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:block lg:group-hover:-translate-y-5 transition duration-300 ease-in-out lg:absolute  -bottom-9' >বিস্তারিত</div> 
+              </Link>
+          )
+           }
        
          
            </div>

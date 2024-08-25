@@ -11,7 +11,16 @@ const ProductCard = ({item}) => {
                         <img className="w-32 lg:w-24 xl:w-32 pb-5" src={product.imgSrc} />
                         <h4 className="font-bold cardHeading text-[15px] lg:text-[11px] xl:text-[15px]">{product.title}</h4>
                         <p className="text-[#718095] cardType text-center text-[12px]   lg:text-[8px] xl:text-[12px]"> {product.subtitle}</p>
-                        <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href="https://ionicerp.xyz/">বিস্তারিত</a>
+                        {/* */}
+                        {
+                            product. linkType === 'external' ? (
+                                <a className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" href={product.link}>বিস্তারিত</a> 
+                            ) : (
+                                <Link to={product.link}>
+                                <div className="font-semibold hover:bg-[#0C2A63] hover:text-white p-1 px-3 rounded-[4px] text-[14px]  pt-2" >বিস্তারিত</div> 
+                                </Link>
+                            )
+                        }
                     </div>
 })
             }

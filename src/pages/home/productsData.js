@@ -23,6 +23,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন আইওনিক ইআরপি সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক ইআরপি একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'শিল্প ও উৎপাদন সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: kormochary,
@@ -30,6 +32,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন “কর্মচারী” সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। “কর্মচারী” একটি দক্ষ কর্মচারী ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'কর্মচারী ব্যবস্থাপনা সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: shikkha,
@@ -37,6 +41,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন শিক্ষা চ্যাট সফটওয়্যার দিয়ে আপনার যে কোন এডুকেশন সিস্টেমকে সহজেই পরিচালনা করতে পারবেন। শিক্ষা চ্যাট হল একটি দক্ষ একাউন্টিং ও এডুকেশন ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'শিক্ষা মূলক সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: healthImg,
@@ -44,6 +50,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন আইওনিক হসপিটাল সফটওয়্যার দিয়ে আপনার যে কোন হসপিটাল সিস্টেমকে সহজেই পরিচালনা করতে পারবেন। আইওনিক হসপিটাল হল একটি দক্ষ একাউন্টিং ও হসপিটাল ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'চিকিৎসা সেবা সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: go,
@@ -51,6 +59,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন গো একাউন্ট সফটওয়্যার দিয়ে আপনার যে কোন একাউন্টিং ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। গো একাউন্ট একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'একাউন্টিং ব্যবস্থাপনা সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: shakti,
@@ -58,6 +68,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন Bikroy Shakti সফটওয়্যার দিয়ে আপনার ব্যবসাকে সহজেই পরিচালনা করুন। Bikroy Shakti একটি দক্ষ একাউন্টিং ও ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'বিজনেস সফটওয়্যার',
     lineNo: 1,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: restoraImg,
@@ -65,6 +77,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন My Restaurant সফটওয়্যার দিয়ে আপনার রেস্তোরাঁ ব্যবসাকে সহজেই পরিচালনা করুন। My Restaurant একটি দক্ষ রেস্তোরাঁ ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'রেস্তোরাঁ সফটওয়্যার',
     lineNo: 2,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: shopImg,
@@ -72,6 +86,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন IONIC Shop সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক সপ একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'সপ ম্যানেজমেন্ট সফটওয়্যার',
     lineNo: 2,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: myBhara,
@@ -79,6 +95,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন My Bhara সফটওয়্যার দিয়ে আপনার ভাড়ার ব্যবস্থাপনাকে সহজেই পরিচালনা করুন। My Bhara একটি দক্ষ ভাড়া ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'ভাড়া ম্যানেজমেন্ট সফটওয়্যার',
     lineNo: 2,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: ionicCorporationLogo,
@@ -86,6 +104,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন গো একাউন্ট সফটওয়্যার দিয়ে আপনার যে কোন একাউন্টিং ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। গো একাউন্ট একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'বিজনেস সফটওয়্যার',
     lineNo: 2,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: ocean,
@@ -93,6 +113,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন IONIC Ocean সফটওয়্যার দিয়ে আপনার অনলাইন আনলিমিটেড স্টোরেজ ব্যবহার করুন। IONIC Ocean একটি আনলিমিটেড অনলাইন স্টোরেজ ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'স্টোরেজ সফটওয়্যার',
     lineNo: 3,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: ionicLogo,
@@ -100,6 +122,8 @@ export const products = [
     description: 'আইওনিক ক্লাউড ভিত্তিক অনলাইন IONIC সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। IONIC একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'বিজনেস সফটওয়্যার',
     lineNo: 3,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: tailor,
@@ -107,6 +131,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন IONIC Tailor সফটওয়্যার দিয়ে আপনার টেইলার্স ব্যবসাকে সহজেই পরিচালনা করুন। IONIC Tailor একটি দক্ষ টেইলার্স ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'টেইলার্স ম্যানেজমেন্ট সফটওয়্যার',
     lineNo: 3,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: transport,
@@ -114,6 +140,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন IONIC Transport সফটওয়্যার দিয়ে আপনার রিপেয়ার ব্যবসাকে সহজেই পরিচালনা করুন। IONIC Transport একটি দক্ষ রিপেয়ার ম্যানেজমেন্ট সিস্টেম সফটওয়্যার। A Business ERP',
     subtitle: 'ট্রান্সপোর্ট সফটওয়্যার',
     lineNo: 4,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: travel,
@@ -121,6 +149,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন IONIC Travel সফটওয়্যার দিয়ে আপনার ট্রাভেল ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক ট্রাভেল একটি দক্ষ একাউন্টিং ও ট্রাভেল ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'ট্রাভেল ম্যানেজমেন্ট সফটওয়্যার',
     lineNo: 4,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   {
     imgSrc: pharma,
@@ -128,6 +158,8 @@ export const products = [
     description: 'ক্লাউড ভিত্তিক অনলাইন আইওনিক ফার্মা সফটওয়্যার দিয়ে আপনার যে কোন ব্যবসাকে সহজেই পরিচালনা করতে পারবেন। আইওনিক ফার্মা একটি দক্ষ একাউন্টিং ও বিজনেস ম্যানেজমেন্ট সিস্টেম সফটওয়্যার।',
     subtitle: 'ফার্মা ম্যানেজমেন্ট সফটওয়্যার',
     lineNo: 5,
+    linkType: 'external',
+    link: 'https://karmochary.com/',
   },
   
   
