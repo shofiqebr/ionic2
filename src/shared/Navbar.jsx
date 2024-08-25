@@ -39,8 +39,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar px-0 w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto 
-  ">
+    <div className="navbar px-0 w-full flex justify-evenly md:justify-between items-center max-w-[1920] mx-auto ">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -306,7 +305,7 @@ const Navbar = () => {
 
 
             <section className="bg-[#001B41] h-1    shadowCustom  ">   </section>
-             <Fixed/>
+             <Fixed backgroundColor='bg-[#001B41]'  gradientBackground="bg-gradient-to-b from-[#1574C4] to-[#001B42]"/>
         </div>
     );
 };

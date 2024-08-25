@@ -1,14 +1,14 @@
 import fixedImg from '../assets/corporation/care-call-4.png';
 
-const Fixed = () => {
+const Fixed = ({backgroundColor, gradientBackground}) => {
     return (
        
-         <div className="lg:fixed top-0 right-0  lg:mx-[160px] 2xl:mx-[215px] flex lg:justify-end justify-center gap-3 z-20   lg:mt-[102px] -mt-[18px] mainHome">
-        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center hidden md:block'>
+         <div className="lg:fixed top-0 right-0  flex lg:justify-end justify-center gap-3 z-20   lg:mt-[102px] -mt-[18px]  lg:mx-[160px] 2xl:mx-[215px] mainHome">
+        <h1 className={`${backgroundColor} text-white  p-1 font-semibold text-[16px] px-3 text-center hidden md:block`}>
           কাষ্টমার কেয়ার : 01511142320
 
         </h1>
-        <h1 className='bg-[#001B41] text-white  p-1 font-semibold text-[16px] px-3 text-center relative '>
+        <h1 className={`${backgroundColor} text-white  p-1 font-semibold text-[16px] px-3 text-center relative `}>
           বিক্রয় প্রতিনিধি : 01958442200
 
 
@@ -19,7 +19,7 @@ const Fixed = () => {
 
           {/* -------------side fixed popup------------------ */}
 
-          <div className='absolute right-[-155px] top-32 bg-gradient-to-b from-[#1574C4] to-[#001B42]  w-[150px] rounded-2xl hidden lg:block  '>
+          <div className={`absolute right-[-155px] top-32 ${gradientBackground}  w-[150px] rounded-2xl hidden lg:block  `}>
             <div className='-mt-14'>
               <img src={fixedImg} alt="" />
             </div>
