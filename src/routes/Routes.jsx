@@ -8,6 +8,15 @@ import DedicatedServer from "../pages/home/DedicatedServer";
 import Contact from "../pages/home/Contact";
 import MainErp from "./MainErp";
 import HomeErp from "../pages/ionicerp/HomeErp";
+import HealthCare from "../pages/ionicerp/healthCare/HealthCare";
+import Manufacturing from "../pages/ionicerp/manufacturing/Manufacturing";
+import TradingErp from "../pages/ionicerp/tradingErp/TradingErp";
+import Chemical from "../pages/ionicerp/chemical-industry/Chemical";
+import HealthManagement from "../pages/ionicerp/healthManagement/HealthManagement";
+import Loan from "../pages/ionicerp/loan/Loan";
+import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
+import ServicesErp from "../pages/ionicerp/ServicesErp";
+import DifferentBrands from "../pages/ionicerp/DifferentBrands";
 
 
 export const router = createBrowserRouter([
@@ -97,42 +106,42 @@ export const router = createBrowserRouter([
               path:'/ionicerp',
               element:<HomeErp/>
           },
-          // {
-          //     path:'manufacturing-industry-ionic-erp-software',
-          //     element:<Manufacturing/>
-          // },
-          // {
-          //     path:'healthcare',
-          //     element:<HealthCare/>
-          // },
-          // {
-          //     path:'trading-ionic-erp',
-          //     element:<TradingErp/>
-          // },
-          // {
-          //     path:'chemical-industry-ionic-erp',
-          //     element:<Chemical/>
-          // },
-          // {
-          //     path:'healthcare-ionic-erp',
-          //     element:<HealthManagement/>
-          // },
-          // {
-          //     path:'lone-management-ionic-erp',
-          //     element:<Loan/>
-          // },
-          // {
-          //     path:'agriculture-ionic-erp',
-          //     element:<Agriculture/>
-          // },
-          // {
-          //     path:'all-services-ionic-erp',
-          //     element:<ServicesErp/>
-          // },
-          // {
-          //     path:'all-products-ionic-erp',
-          //     element:<DifferentBrands/>
-          // },
+          {
+              path:'manufacturing-industry-ionic-erp-software',
+              element:<Manufacturing/>
+          },
+          {
+              path:'healthcare',
+              element:<HealthCare/>
+          },
+          {
+              path:'trading-ionic-erp',
+              element:<TradingErp/>
+          },
+          {
+              path:'chemical-industry-ionic-erp',
+              element:<Chemical/>
+          },
+          {
+              path:'healthcare-ionic-erp',
+              element:<HealthManagement/>
+          },
+          {
+              path:'lone-management-ionic-erp',
+              element:<Loan/>
+          },
+          {
+              path:'agriculture-ionic-erp',
+              element:<Agriculture/>
+          },
+          {
+              path:'all-services-ionic-erp',
+              element:<ServicesErp/>
+          },
+          {
+              path:'all-products-ionic-erp',
+              element:<DifferentBrands/>
+          },
           
       ]
   },
