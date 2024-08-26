@@ -14,7 +14,7 @@ const BannerHealthCare = () => {
 
                 {/* ------------banner left--------------- */}
 
-                <div className="xl:col-span-4  md:col-span-3 bg-[#2c2a2a] text-white flex   flex-col lg:justify-between md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  
+                <div className="xl:col-span-4  md:col-span-3 bg-[#2c2a2a] text-white flex   flex-col lg:gap-10 md:rounded-tl-xl md:rounded-tr-none rounded-t-xl  bannerWidth  
                   ">
 
 
@@ -22,36 +22,30 @@ const BannerHealthCare = () => {
 
                         <p className="pb-3 font-bold text-[#FFAA00] text-lg  lg:mt-[135px] xl:mt-[70px] 2xl:mt-[10px]  ">আইওনিক ইআরপি</p>
                         <h1 className="lg:text-[40px] xl:text-[32px] 2xl:!text-[30px]  text-3xl md:text-[34px] font-semibold pb-3 heading1 ">টোটাল সলুয়েশন বিজনেস ম্যানেজমেন্ট ইআরপি সফটওয়্যার  </h1>
-                        <h1 className="lg:text-[29px] xl:text-[23px] 2xl:!text-[18px] text-[22px] md:text-[25px] text-justify  font-semibold lg:pb-8  heading2">বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল ব্যবসা পরিচালনার জন্য বিলিং ও একাউন্টিং সিস্টেম কে পেপারলেস ও অটোমেশন করতে, ১০০০+ এর অধিক ব্যবসা পরিচালনার মডিউল বিদ্যমান আছে <span className="text-[#FFAA00]">“আইওনিক ইআরপি”</span>-র মধ্যে। </h1>
+                        <h1 className="lg:text-[29px] xl:text-[23px] 2xl:!text-[18px] text-[22px] md:text-[25px] text-justify  font-semibold   heading2">বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল স্বাস্থ্যসেবা, মাল্টি-স্পেশালিটি হাসপাতাল, ডায়াগনস্টিক সেন্টার এবং অন্যান্য স্বাস্থ্যসেবা ব্যবসা পরিচালনার জন্য বিলিং ও একাউন্টিং সিস্টেম কে পেপারলেস ও অটোমেশন করতে, ১০০০+ এর অধিক ব্যবসা পরিচালনার মডিউল বিদ্যমান আছে <span className="text-[#FFAA00]">“আইওনিক ইআরপি”</span>-র মধ্যে। </h1>
 
                        
 
 
                     </div>
 
-                    <div className=" xl:w-[70%] 2xl:w-[55%] lg:pl-10  2xl:pt-7   bannerTExt">
+                    <div className=" xl:w-[70%] 2xl:w-[55%] lg:pl-10  2xl:pt-0   bannerTExt">
 
 
 
 
+                        
                         <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px] lg:pb-5 text-justify md:w-[350px] lg:w-auto ">
 
-                            পাইথন প্রোগ্রামিং ভাষা হল শক্তিশালী এবং দ্রুত অন্যদের সাথে ভাল মিশতে পারে, সর্বত্র চলে বন্ধুত্বপূর্ণ এবং শেখা সহজ, ওপেন সোর্স।<span className="text-[#FFAA00]">"আইওনিক ইআরপি"</span>  বিজনেস ম্যানেজমেন্ট সফটওয়্যার- তৈরিতে ব্যবহার করা হয়েছে <span className="text-[#FFAA00]">"পাইথন প্রোগ্রামিং ভাষা"</span> । পাইথন সফটওয়্যার ফাউন্ডেশন হল পাইথন প্রোগ্রামিং ভাষার সাথে সম্পর্কিত ওপেন সোর্স প্রযুক্তির অগ্রগতির জন্য নিবেদিত একটি সংস্থা।
+                          বহু দশক ধরে স্বাস্থ্যসেবা সর্বদাই একটি দ্রুত গতির সেক্টর হয়েছে যা মানব জীবনের সাথে জড়িত জরুরীতা এবং সমালোচনামূলকতার কারণে। সম্প্রতি আইটি এবং হেলথ কেয়ারের মধ্যে অ্যাসোসিয়েশনের প্রয়োজনীয়তা বিশ্বব্যাপী চিহ্নিত করা হয়েছে এবং অত্যাধুনিক প্রযুক্তির সাহায্যে স্বাস্থ্যসেবা প্রক্রিয়া/অপারেশনের সামগ্রিক উত্পাদনশীলতা উন্নত করার প্রচেষ্টা করা হয়েছে। প্রযুক্তি প্রদানকারীরা দক্ষতা বা গুণমানের সাথে আপস না করে একটি বিরামহীন ব্যবহারকারীর অভিজ্ঞতা প্রদানের জন্য স্বাস্থ্যসেবা কার্যক্রম স্বয়ংক্রিয় করার জন্য তাদের অনেক প্রচেষ্টা বিনিয়োগ করেছে।
                         </p>
-                        <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px] lg:pb-5 text-justify md:w-[350px] lg:w-auto ">
-
-                        আইওনিক কর্পোরেশন বাংলাদেশে প্রথমবার সবচেয়ে সহজ ও নির্ভূল স্বাস্থ্যসেবা, মাল্টি-স্পেশালিটি হাসপাতাল, ডায়াগনস্টিক সেন্টার এবং অন্যান্য স্বাস্থ্যসেবা ব্যবসা পরিচালনার পূর্নাঙ্গ সমাধান নিয়ে এলো পাইথন দিয়ে তৈরি "আইওনিক ইআরপি" টোটাল সলুয়েশন ইআরপি সফ্টওয়ার। যে কোন ব্যবসা পরিচালনার জন্য বিলিং ও একাউন্টিং সিস্টেম সহ ৭০+ এর অধিক ব্যবসা পরিচালনার মডিউল বিদ্যমান আছে।
-                        </p>
-                        <p className="lg:text-[18px] xl:text-[16px] 2xl:text-[18px] lg:pb-5 text-justify md:w-[350px] lg:w-auto ">
-
-                        বহু দশক ধরে স্বাস্থ্যসেবা সর্বদাই একটি দ্রুত গতির সেক্টর হয়েছে যা মানব জীবনের সাথে জড়িত জরুরীতা এবং সমালোচনামূলকতার কারণে। সম্প্রতি আইটি এবং হেলথ কেয়ারের মধ্যে অ্যাসোসিয়েশনের প্রয়োজনীয়তা বিশ্বব্যাপী চিহ্নিত করা হয়েছে এবং অত্যাধুনিক প্রযুক্তির সাহায্যে স্বাস্থ্যসেবা প্রক্রিয়া/অপারেশনের সামগ্রিক উত্পাদনশীলতা উন্নত করার প্রচেষ্টা করা হয়েছে। প্রযুক্তি প্রদানকারীরা দক্ষতা বা গুণমানের সাথে আপস না করে একটি বিরামহীন ব্যবহারকারীর অভিজ্ঞতা প্রদানের জন্য স্বাস্থ্যসেবা কার্যক্রম স্বয়ংক্রিয় করার জন্য তাদের অনেক প্রচেষ্টা বিনিয়োগ করেছে।
-                        </p>
+                       
 
 
 
 
 
-                        <button className="pl-5 xl:pt-[170px] 2xl:pt-[5px] lg:hidden xl:block  md:pt-[120px] leftOnurodh" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5">
+                        <button className="pl-5 xl:pt-[170px] 2xl:!pt-[0px]   lg:hidden xl:block  md:pt-[120px] leftOnurodh" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px] font-extrabold my-10 xl:my-3 px-5">
                             অনুরোধ করুন
                         </p>
                         </button>
@@ -157,7 +151,7 @@ const BannerHealthCare = () => {
 
 
                     {/* Open the modal using document.getElementById('ID').showModal() method */}
-                    <div className="text-center lg:mt-20 xl:mt-0 ">
+                    <div className="text-center lg:mt-20 xl:mt-0  2xl:mt-[85px]">
                         <button className="" onClick={() => document.getElementById('my_modal_5').showModal()}>  <p className="bg-[#FFAA00] text-[#001B41] rounded-full p-2 text-[16px]  font-extrabold my-3 px-5 ">
                             অনুরোধ করুন
                         </p>

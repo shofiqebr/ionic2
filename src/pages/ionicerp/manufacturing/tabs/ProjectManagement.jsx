@@ -5,21 +5,21 @@ const ProjectManagement = () => {
         <div>
         <section className='flex justify-between pb-5'>
             <div>
-                <h1 className="text-3xl font-bold">  প্রকল্প ব্যবস্থাপনা</h1>
-                <p className="text-xl font-medium text-[#777777]">
+                <h1 className="text-2xl font-bold">  প্রকল্প ব্যবস্থাপনা</h1>
+                <p className="text-[14.5px] font-medium text-[#777777]">
                
                 একটি পরিকল্পনা ছাড়া একটি লক্ষ্য শুধুমাত্র একটি ইচ্ছা. – অ্যান্টোইন ডি সেন্ট-এক্সুপেরি</p>
             </div>
-            <div><img className='w-96'  src={ProjectImg} alt="" /></div>
+            <div><img className='w-[300px]'  src={ProjectImg} alt="" /></div>
         </section>
 
 
         <section>
-            <p className='text-xl font-medium text-[#777777] pb-5'>IONIC ERP প্রজেক্ট ম্যানেজমেন্ট একটি প্রকল্প পরিচালনার সাথে জড়িত বিভিন্ন কাজ এবং ক্রিয়াকলাপগুলির পরিকল্পনা, সংগঠন এবং প্রশাসনে সহায়তা করে, নিশ্চিত করে যে সেগুলি নথিভুক্ত এবং ট্র্যাক করা হয়েছে।</p>
+            <p className='text-[14.5px] font-medium text-[#777777] pb-5'>IONIC ERP প্রজেক্ট ম্যানেজমেন্ট একটি প্রকল্প পরিচালনার সাথে জড়িত বিভিন্ন কাজ এবং ক্রিয়াকলাপগুলির পরিকল্পনা, সংগঠন এবং প্রশাসনে সহায়তা করে, নিশ্চিত করে যে সেগুলি নথিভুক্ত এবং ট্র্যাক করা হয়েছে।</p>
 
 
 
-            <ul className='list-disc pl-5 text-[#777777] text-lg pb-5'>
+            <ul className='list-disc pl-5 text-[#777777] text-[14.5px] pb-5'>
                  <li>IONIC ERP প্রজেক্ট ম্যানেজমেন্ট একটি প্রকল্পের বিভিন্ন কাজ ও ক্রিয়াকলাপ পরিকল্পনা, সংগঠিত এবং পরিচালনা করতে সহায়তা করে।
 
 

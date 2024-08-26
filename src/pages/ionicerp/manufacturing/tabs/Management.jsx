@@ -5,22 +5,22 @@ const Management = () => {
         <div>
         <section className='flex justify-between pb-5'>
             <div >
-                <h1 className="text-3xl font-bold">  সম্পদ ব্যবস্থাপনা</h1>
-                <p className="text-xl font-medium text-[#777777]">
+                <h1 className="text-2xl font-bold">  সম্পদ ব্যবস্থাপনা</h1>
+                <p className="text-[14.5px] font-medium text-[#777777]">
                
                 আপনার মালিকানা জানুন এবং কেন আপনি এটির মালিক তা জানুন। – পিটার লিঞ্চ</p>
             </div>
-            <div className=''> <img className='w-96' src={managementImg} alt="" /></div>
+            <div className=''> <img className='w-[300px]' src={managementImg} alt="" /></div>
         </section>
 
 
         <section>
-            <p className='text-xl font-medium text-[#777777] pb-5'>IONIC ERP একটি কেন্দ্রীভূত ব্যবস্থার মাধ্যমে আইটি অবকাঠামো এবং সরঞ্জাম সহ সংগ্রহ থেকে নিষ্পত্তি পর্যন্ত সম্পদ ব্যবস্থাপনাকে সহজ করে। একাধিক ক্ষমতা একক অ্যাপ্লিকেশনে একত্রিত করার সাথে, সম্পদ পরিচালনা করা সহজ ছিল না।</p>
+            <p className='text-[14.5px] font-medium text-[#777777] pb-5'>IONIC ERP একটি কেন্দ্রীভূত ব্যবস্থার মাধ্যমে আইটি অবকাঠামো এবং সরঞ্জাম সহ সংগ্রহ থেকে নিষ্পত্তি পর্যন্ত সম্পদ ব্যবস্থাপনাকে সহজ করে। একাধিক ক্ষমতা একক অ্যাপ্লিকেশনে একত্রিত করার সাথে, সম্পদ পরিচালনা করা সহজ ছিল না।</p>
 
-            <p className='text-2xl text-[#777777]'>বৈশিষ্ট্য:</p>
+            <p className='text-[15.5px] font-bold text-[#777777]'>বৈশিষ্ট্য</p>
 
 
-            <ul className='list-disc pl-5 text-[#777777] text-lg pb-5'>
+            <ul className='list-disc pl-5 text-[#777777] text-[14.5px] pb-5'>
                  <li>IONIC ERP সম্পদ ব্যবস্থাপনার জন্য একটি কেন্দ্রীভূত সিস্টেম অফার করে।
                 </li>
                 <li>প্ল্যাটফর্মটি সংগ্রহ থেকে নিষ্পত্তি পর্যন্ত সম্পদ পরিচালনার সুবিধা দেয়।

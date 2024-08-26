@@ -105,15 +105,11 @@ const NavbarErp = () => {
                 <Link to='all-services-ionic-erp'>
                 <li className='xl:text-lg text-[14px] font-bold'>সেবা সমূহ <span className='opacity-30'>|</span></li>
                 </Link>
-                <Link to='all-products-ionic-erp'>
-                <li className='xl:text-lg text-[14px] font-bold'>পণ্য সমূহ <span className='opacity-30'>|</span></li>
-                </Link>
-                <Link to=''>
-                <li className='xl:text-lg text-[14px] font-bold'>মূল্য <span className='opacity-30'>|</span></li>
-                </Link>
-                <Link to=''>
+              
+             
+                <a href='https://ionicerp.xyz/ionic-erp-tutorial-chat-list/'>
                 <li className='xl:text-lg text-[14px] font-bold'>টিউটোরিয়াল</li>
-                </Link>
+                </a>
             
                
             </ul>

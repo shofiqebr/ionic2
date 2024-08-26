@@ -3,7 +3,7 @@ import fixedImg from '../assets/corporation/care-call-4.png';
 const Fixed = ({backgroundColor, gradientBackground}) => {
     return (
        
-         <div className="lg:fixed top-0 right-0  flex lg:justify-end justify-center gap-3 z-20   lg:mt-[102px] -mt-[18px]  lg:mx-[160px] 2xl:mx-[215px] mainHome">
+         <div className="lg:fixed top-0 right-0  flex lg:justify-end justify-center gap-3 z-20   lg:mt-[95px] -mt-[18px]  lg:mx-[160px] 2xl:mx-[215px] mainHome">
         <h1 className={`${backgroundColor} text-white  p-1 font-semibold text-[16px] px-3 text-center hidden md:block`}>
           কাষ্টমার কেয়ার : 01511142320
 

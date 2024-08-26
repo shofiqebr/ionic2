@@ -17,34 +17,34 @@ const ManufactureTab = ({heading, subHeading}) => {
     const [tabIndex, setTabIndex] = useState(0);
     return (
         <div className="">
-            <section className="text-center py-5">
-                <h1 className="text-2xl font-bold ">
-                    {/* */}
-                    {heading}
-                    </h1>
-                <hr className="border-[2px] border-black" />
-                <p className="text-lg text-[#777777]">{subHeading}</p>
+           
+
+            <section className='flex flex-col justify-center items-center gap-2 mt-5 py-5 pb-10'>
+                <h1 className='text-[#898989] font-semibold text-center text-[17.5px]'>{heading}</h1>
+                <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
+                <p className='text-center text-[#898989] font-semibold  text-[14.5px]'>{subHeading}</p>
             </section>
 
 
+            <div className="px-20">
             <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <div className="flex gap-5">
                     {/* TabList on the left side */}
                     <div className="w-[200px]">
-                    <TabList className='text-xl font-bold flex flex-col gap-3 '>
-                        <Tab selectedClassName='text-red-500 border-0'>অ্যাকাউন্টিং</Tab>
-                        <Tab selectedClassName='text-red-500'>সিআরএম</Tab>
-                        <Tab selectedClassName='text-red-500'>ইনভেন্টরি</Tab>
-                        <Tab selectedClassName='text-red-500'>ক্রয় করা</Tab>
-                        <Tab selectedClassName='text-red-500'>ম্যানুফ্যাকচারিং</Tab>
-                        <Tab selectedClassName='text-red-500'>মানব সম্পদ</Tab>
-                        <Tab selectedClassName='text-red-500'>সম্পদ ব্যবস্থাপনা</Tab>
-                        <Tab selectedClassName='text-red-500'>প্রকল্প ব্যবস্থাপনা</Tab>
-                        <Tab selectedClassName='text-red-500'>সহায়তা</Tab>
-                        <Tab selectedClassName='text-red-500'>এক্সিম</Tab>
+                    <TabList className='text-[17.5px] font-bold flex flex-col gap-3 '>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500 border-0'>অ্যাকাউন্টিং</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>সিআরএম</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>ইনভেন্টরি</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>ক্রয় করা</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>ম্যানুফ্যাকচারিং</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>মানব সম্পদ</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>সম্পদ ব্যবস্থাপনা</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>প্রকল্প ব্যবস্থাপনা</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>সহায়তা</Tab>
+                        <Tab className='cursor-pointer' selectedClassName='text-red-500'>এক্সিম</Tab>
                     </TabList>
                     
-                    </div>
+                    </div >
                    
                     {/* TabPanel on the right side */}
                     <div className="w-[900px]">
@@ -61,17 +61,23 @@ const ManufactureTab = ({heading, subHeading}) => {
                     </div>
                 </div>
             </Tabs>
+            </div>
+
+            
 
 
 
-            <section className='flex flex-col justify-center items-center gap-2 mt-10 '>
-                <h1 className='  text-3xl font-semibold '>আপনার প্রিয় ``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার সাথে সংযোগ করুন</h1>
-                <div className='w-[100%] h-[3px] bg-black'></div>
-                <p className='text-center text-[#777777] pb-5  font-semibold '>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর বিল্ট-ইন ইন্টিগ্রেশনের একটি হোস্ট রয়েছে যা আপনার ব্যবসাকে দ্রুত টেক অফ করতে সাহায্য করে।</p>
+          
+            <section className='flex flex-col justify-center items-center gap-2 mt-5 pb-5'>
+                <h1 className='text-[#898989] font-semibold text-center text-[17.5px]'>আপনার প্রিয় ``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার সাথে সংযোগ করুন</h1>
+                <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
+                <p className='text-center text-[#898989] font-semibold  text-[14.5px]'>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর বিল্ট-ইন ইন্টিগ্রেশনের একটি হোস্ট রয়েছে যা আপনার ব্যবসাকে দ্রুত টেক অফ করতে সাহায্য করে।</p>
             </section>
 
 
-            <section className='flex justify-center items-center  mx-auto pb-5'>
+
+
+            <section className='flex justify-center items-center  mx-auto pb-10'>
                 <img src={technologyImg} alt="" />
             </section>
         </div>
