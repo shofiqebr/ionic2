@@ -1,6 +1,7 @@
 
 
-const SoftwarePrice = ({heading, subheading, cardheading}) => {
+const SoftwarePrice = ({heading, subheading, cardheading, textColor}) => {
+   
     return (
         <div className=' pb-10 dedicated'>
             <section className='flex flex-col justify-center items-center gap-2 mt-5 py-5'>
@@ -20,7 +21,7 @@ const SoftwarePrice = ({heading, subheading, cardheading}) => {
 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10 
 gap-5 ">
         <div className="card1 text-center bg-white border mb- pb-10 flex flex-col justify-center items-center pt-5 px-10">
-            <h2 className="text-black  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5">Ultimate</h2>
+            <h2 className={`${textColor}  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5`}>Ultimate</h2>
             
             <section className="flex flex-col gap-2 pb- xl:text-sm lg:text-[11px] text-black flex-grow">
                 <p>কল করুন 01958442200</p>
@@ -36,7 +37,7 @@ gap-5 ">
 
         </div>
         <div className="card1 text-center bg-white border mb- pb-10 flex flex-col justify-center items-center pt-5 px-10">
-            <h2 className="text-black  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5">Ultimate Pro</h2>
+            <h2 className={`${textColor}  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5`}>Ultimate Pro</h2>
             
             <section className="flex flex-col gap-2 pb- xl:text-sm lg:text-[11px] text-black flex-grow">
                 <p>কল করুন 01958442200</p>
@@ -53,7 +54,7 @@ gap-5 ">
         </div>
      
         <div className="card1 text-center bg-white border mb- pb-10 flex flex-col justify-center items-center pt-5 px-10">
-        <h2 className="text-black  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5">Ultimate Pro Plus</h2>
+        <h2 className={`${textColor}  2xl:text-xl lg:text-[12.9px]  py-1 font-bold pt-5`}>Ultimate Pro Plus</h2>
            <section className="flex flex-col gap-2 pb- xl:text-sm lg:text-[11px] text-black flex-grow">
                 <p>কল করুন 01958442200</p>
                 <p>আনলিমিটেড ব্যবহারকারী</p>

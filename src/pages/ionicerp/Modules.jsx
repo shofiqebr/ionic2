@@ -1,6 +1,7 @@
 import { moduleData } from "./moduleData";
 
-const Modules = ({heading,subheading }) => {
+const Modules = ({heading,subheading, grayscale }) => {
+    const grayscaleClass = grayscale ? 'grayscale' : '';
     return (
         <div>
 
@@ -20,9 +21,8 @@ const Modules = ({heading,subheading }) => {
                     moduleData.map((module, index) => {
                         return (
                             <div className='pb-10 bg-white pt-3  px-5  flex flex-col gap-4  items-center md:relative group transition duration-300 hover:shadow-xl rounded-md border'>
-                                <img className='p-5 w-28 h-28 grayscale
-                                
-                                ' src={module.imgSrc} alt="" />
+                                <img className={`p-5 w-28 h-28 ${grayscaleClass}`}                             
+                                 src={module.imgSrc} alt="" />
                                 <h2 className='font-bold text-[18.5px] '> {module.title}</h2>
                                 <p className='text-center  text-sm text-[#5e5d5d] flex-grow'>{module.description}
                                 </p>

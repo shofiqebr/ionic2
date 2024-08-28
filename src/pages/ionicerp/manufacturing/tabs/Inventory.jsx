@@ -1,3 +1,4 @@
+import { FaArrowRightLong } from 'react-icons/fa6';
 import inventoryImg from '../../../../assets/erp/module-crm.svg'
 
 const Inventory = () => {
@@ -20,8 +21,12 @@ const Inventory = () => {
 
 
             <ul className='list-disc pl-5 text-[#777777] text-[14.5px] pb-5'>
-                 <li>লিড -> তদন্ত -> গ্রাহক ব্যবস্থাপনা থেকে সম্পূর্ণ রূপান্তর চক্র পরিচালনা করুন।
-                </li>
+                 
+                <li>
+                    <div  className='flex items-center gap-1'>
+                    লিড <FaArrowRightLong /> তদন্ত <FaArrowRightLong /> গ্রাহক ব্যবস্থাপনা থেকে সম্পূর্ণ রূপান্তর চক্র পরিচালনা করুন।
+                    </div>
+                   </li>
                 <li>সিস্টেম রিমাইন্ডারের মাধ্যমে সময়মতো ফলো-আপ কল করতে ভুলবেন না।
                 </li>
                 <li>প্রতিটি গ্রাহক/লিডের জন্য Facebook এর মতো টাইম লাইন বৈশিষ্ট্য আপনাকে একক পৃষ্ঠায় সমস্ত মেল/ফোন কথোপকথন দেখতে দেয়।</li>

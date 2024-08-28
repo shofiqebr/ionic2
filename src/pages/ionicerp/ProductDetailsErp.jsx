@@ -3,19 +3,20 @@ import { productDetailsDataErp } from './productDetailsDataErp'
 
 
 
-const ProductDetails = () => {
+const ProductDetails = ({heading,subheading, grayscale}) => {
+  const grayscaleClass = grayscale ? 'grayscale' : '';
   return (
     <div className='py-5 detailsWidth'>
         <section className='flex flex-col justify-center items-center gap-2 mt-5'>
-                <h1 className='text-[#898989] font-semibold text-center text-[17.5px]'>``আইওনিক ইআরপি`` বিজনেস ম্যানেজমেন্ট সফটওয়্যার এর ব্যবহারের সেক্টর সমূহ</h1>
+                <h1 className='text-[#898989] font-semibold text-center text-[17.5px]'>{heading}</h1>
                 <div className='w-10 h-[3px] bg-[#b3b2b2]'></div>
-                <p className='text-center text-[#898989] font-semibold  text-[14.5px]'>আইওনিক কর্পোরেশন এর পেশাদারদের একটি বিশেষজ্ঞ দল রয়েছে যারা যুগ যুগ ধরে সমাধান তৈরি করছে এবং স্থানীয় এবং বিদেশী উভয় শিল্পের ক্লায়েন্টদের বিশ্বাস এবং <br />  নির্ভর যোগ্যতার সাথে উল্লেখ যোগ্য ভাবে বৃদ্ধি পাচ্ছে।</p>
+                <p className='text-center text-[#898989] font-semibold  text-[14.5px]'>{subheading}</p>
             </section>
 
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5    pt-10 cardGrid'>
         {productDetailsDataErp.map((product, index) => (
                <div className='pb-10 bg-white pt-3  px-5  flex flex-col gap-4  items-center md:relative group transition duration-300 hover:shadow-xl rounded-md border'>
-               <img className='p-5 w-28 h-28 grayscale' src={product.img} alt={product.title} />
+               <img className={`p-5 w-28 h-28  ${grayscaleClass}`} src={product.img} alt={product.title} />
                <h2 className='font-bold text-[17.5px] text-center'>{product.title}</h2>
                <p className='text-[14.5px] text-center   text-[#5e5d5d] flex-grow'>{product.description}</p>
               

@@ -17,6 +17,8 @@ import Loan from "../pages/ionicerp/loan/Loan";
 import Agriculture from "../pages/ionicerp/agriculture/Agriculture";
 import ServicesErp from "../pages/ionicerp/ServicesErp";
 import DifferentBrands from "../pages/ionicerp/DifferentBrands";
+import MainKarmochary from "./MainKarmochary";
+import Karmochary from "../pages/karmochary/Karmochary";
 
 
 export const router = createBrowserRouter([
@@ -50,10 +52,10 @@ export const router = createBrowserRouter([
       //     path:'/shikkha',
       //     element: <ShikkhaChat/>
       // },
-      // {
-      //     path:'karmochary',
-      //     element: <Karmochary/>
-      // },
+      {
+          path:'karmochary',
+          element: <Karmochary/>
+      },
   
     ]
   },
@@ -70,21 +72,21 @@ export const router = createBrowserRouter([
   //     ]
   // },
   // -----------------ionic kormochary----------------
-  // {
-  //     path: "/karmochary",
-  //     element: <MainKarmochary/>,
-  //     children:[
-  //         {
-  //             path:'/karmochary',
-  //             element:<Karmochary/>
-  //         },
-  //         {
-  //             path:'services',
-  //             element:<Services/>
-  //         },
-        
-  //     ]
-  // },
+  {
+    path: "/karmochary",
+    element: <MainKarmochary/>,
+    children:[
+        {
+            path:'/karmochary',
+            element:<Karmochary/>
+        },
+        // {
+        //     path:'services',
+        //     element:<Services/>
+        // },
+      
+    ]
+},
   // -----------------ionic pharma----------------
   // {
   //     path: "/ionicpharma",
